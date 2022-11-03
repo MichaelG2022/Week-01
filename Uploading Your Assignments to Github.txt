@@ -1,0 +1,72 @@
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git inti
+git: 'inti' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git init
+Initialized empty Git repository in C:/Users/mwgoe/eclipse-workspace/Week1Homework/.git/
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .classpath
+        .project
+        .settings/
+        bin/
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git add .
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .classpath
+        new file:   .project
+        new file:   .settings/org.eclipse.core.resources.prefs
+        new file:   .settings/org.eclipse.jdt.core.prefs
+        new file:   bin/Main.class
+        new file:   src/Main.java
+
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git commit -m "first java commit"
+[master (root-commit) b1aac49] first java commit
+ 6 files changed, 60 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.core.resources.prefs
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 bin/Main.class
+ create mode 100644 src/Main.java
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git remote add origin https://github.com/MichaelG2022/PT-W1.git
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git branch -M main
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.82 KiB | 930.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MichaelG2022/PT-W1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\mwgoe\eclipse-workspace\Week1Homework>
